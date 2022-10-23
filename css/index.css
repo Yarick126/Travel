@@ -1,0 +1,228 @@
+@import url(/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  background-color: black;
+  font-family: 'Nunito';
+  font-style: normal;
+}
+
+/*--------------------------------------- HEADER ------------------------------------ */
+
+.navigation {
+  width: 1325px;
+  height: 107px;
+  margin: 18px 100px;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon-trasave {
+  width:107px;
+  height: 107px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+#icon{
+  object-fit: cover;
+  height: 80px;
+}
+
+.navigation-buttons {
+  font-size: 22px;
+  width: 714px;
+  height: 48px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 500px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.btn-cu{
+  max-width: 163px;
+  max-height: 48px;
+  width: 163px;
+  height: 48px;
+
+  background: #49B649;
+  border-radius: 10px;
+  box-sizing: border-box;
+
+  padding: 10px 20px;
+}
+.contactUs:hover {
+  color: rgb(206, 104, 104)
+}
+.btn-cu:active {
+  width: 155px;
+  height: 53px;
+}
+
+.btn:hover{color:#49B649}
+
+/*--------------------------------------- HEADER ------------------------------------ */
+
+/*  -------------------------------- MAIN --------------------------------*/
+
+#blur_image{
+  position: absolute;
+
+  width: 1012.62px;
+  height: 995.4px;
+  left: -3.62px;
+  top: -3.18px;
+
+  z-index: -3;
+}
+
+#eclipse_image{
+  position: absolute;
+
+  width: 777.51px;
+  height: 562.71px;
+  left: 630px;
+  top: 443.65px;
+
+  z-index: -2;
+}
+
+
+.main_1 {
+  width: 705px;
+  height: 792px;
+
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+
+  margin-top: 201px;
+  margin-left: 115px;
+}
+.header_title {
+  margin-left: 14px;
+
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#greenWord{
+  color: #49B649
+}
+.description {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+/*-------------------- Buttons ------------------*/
+
+#saveNowBtn{
+  box-sizing: border-box;
+
+  width: 197px;
+  height: 63px;
+
+  margin-top: 55px;
+  
+  color: white;
+  font-size: 20px;
+
+  background-color: #49B649;
+  border-radius: 10px;
+
+
+}
+
+#saveNowBtn:hover{color:burlywood}
+#saveNowBtn:active{width: 196px; height: 62px; margin-top: 56px;}
+
+#caseStudyBtn{
+  box-sizing: border-box;
+
+  width: 296px;
+  height: 63px;
+
+  margin-top: 21px;
+  
+  color: white;
+  font-size: 20px;
+
+  background-color: #49B649;
+  border-radius: 10px;
+}
+
+#caseStudyBtn:hover{color:burlywood}
+#caseStudyBtn:active{width: 295px; height: 62px;margin-top: 22px;}
+
+/*-------------------- Buttons ------------------*/
+
+.main_1-container {
+  color: white;
+
+  margin-top: 61px;
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 113px;
+}
+
+.icons{
+  width: 184px;
+  height: 155px;
+
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 125.81%;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.icons-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.statistic{
+  width: 248px;
+  height: 208px;
+}
+
+.girl-picture{
+  position: absolute;
+  width: 642px;
+  height: 843px;
+  left: 763px;
+  top: 165px;
+
+  background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+
+  z-index: -1;
+  object-fit: cover;
+
+
+}
+
+/*  -------------------------------- MAIN --------------------------------*/
